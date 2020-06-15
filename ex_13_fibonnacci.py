@@ -11,16 +11,16 @@
 #
 # print(fiboncci(n))
 
-num = int(input('How many Fibonnaci numbers do you want to generate: ')
-
-
-def fibonnacci(n):
-    if n == 1:
-        return 1
-    elif n == 2:
-        return 1
-    elif n > 2:
-        return fibonnacci(n-1) + fibonnacci(n-2)
-
-for n in range(0, num):
-    print(fibonnacci(n))
+# num = int(input('How many Fibonnaci numbers do you want to generate: ')
+#
+#
+# def fibonnacci(n):
+#     if n == 1:
+#         return 1
+#     elif n == 2:
+#         return 1
+#     elif n > 2:
+#         return fibonnacci(n-1) + fibonnacci(n-2)
+#
+# for n in range(0, num):
+#     print(fibonnacci(n))
