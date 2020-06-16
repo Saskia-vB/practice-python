@@ -7,4 +7,5 @@ def divisors(num):
             div_list.append(i)
     return div_list
 
-print(divisors(num))
+# print(divisors(num))
+
