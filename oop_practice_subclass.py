@@ -1,8 +1,8 @@
 from oop_practice import Animal
 
 class Dog(Animal):
-    def __init__(self, name, age):
-        super().__init__(diet = 'carnivore', n_limbs= '4')
+    def __init__(self, name, age, diet, n_limbs):
+        super().__init__(diet, n_limbs)
         self.__name = name
         self.age = age
 
